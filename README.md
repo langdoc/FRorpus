@@ -8,4 +8,4 @@ In this demo the token data is real, but the metadata is generated in the `helpe
 
 The application can be run by blaablaablaa CONTINUE HERE
 
-![picture]("FRorpus_search.png")
+![picture](FRorpus_search.png)
