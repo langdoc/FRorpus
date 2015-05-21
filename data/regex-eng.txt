@@ -1,0 +1,7 @@
+Explanation	Item	Example
+Beginning of a string	^	^пон
+End of a string	$	ӧны$
+Any of these variants	(|)	(ӧ|е|э)ны$
+Any character	.	п.н
+Preceding item can occur once or more	+	о+
+Preceding item is optional	?	понм?ын
