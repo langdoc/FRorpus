@@ -1,5 +1,4 @@
 library(dplyr)
-library(FRelan)
 
 ## First we have to read in the corpus objects which are in this case saved earlier.
 

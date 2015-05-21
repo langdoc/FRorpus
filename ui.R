@@ -6,7 +6,7 @@ library(ggvis)
 shinyUI(
         fluidPage(theme = "bootstrap.css",
                 navbarPage(
-                title = 'FRorpus',
+                title = 'FRorpus (demo version - real tokens, random metadata)',
 
                 tabPanel('Concordances',
                 
