@@ -34,7 +34,7 @@ It exists also as a built in function within FRelan. As an example, it is possib
 
     library(FRelan)
     library(dplyr)
-    corpus <- read_eaf(".")
+    corpus <- read_eaf("./path/to/elan/file.eaf")
     corpus %>% FRorpus()
 
 Please see FRelan documentation for further information.
