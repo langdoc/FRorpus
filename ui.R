@@ -72,13 +72,15 @@ tabPanel('Visualize',
 tabPanel('Information & Help',
 (fluidPage(
                 h1("FRorpus application"),
-                p(paste0("This corpus contains currently data from Kola Saami languages. It is intensively under development, but will offer easy access to this data.")),
-                p("The regular expressions have to be used in the searches. They are Perl compatible, so different ")
+                p(paste0("This corpus contains currently data from Kola Saami languages. It is intensively under development, but will offer easy access to this data. One of the ideas is to embed this application into IMDI browser with links to the relevant archive nodes.")),
+                p("The regular expressions have to be used in the searches. Some simple tips are displayed when there is no search term or the search would return all the hits from the corpus."),
+                p("This application is also part of FRelan R package which can be found from", a("GitHub.", href="https://github.com/langdoc/FRelan"), "Similarly, the source code for this application is also stored", a("here.", href="https://github.com/langdoc/FRorpus-demo"))
 ))),
 
 tabPanel('Contact',
          (fluidPage(
-                        h1("Freiburg Research Group in Saami Studies")
+                        h1("Freiburg Research Group in Saami Studies"),
+                        p("Please contact Niko Partanen if you have any questions about this application or want to know about its current development status. Email: nikotapiopartanen@gmail.com")
                  )))
 
 
